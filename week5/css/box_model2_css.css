@@ -1,0 +1,18 @@
+div {
+    margin: 10px;
+    padding: 50px;
+    border: 5px solid pink;
+}
+
+.firstdiv{
+    background: url("../image/mcbg.jpg") center;
+    background-size: 100%;
+}
+
+.seconddiv{
+    background: url("../image/mcbg2.jpg") center repeat;
+}
+
+p {
+    color:white;
+}
