@@ -1,0 +1,37 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 20px 0;
+    padding: 0;
+}
+
+img{
+    width:750px;
+    margin-right:165px;
+}
+
+.main{
+    display:flex;
+    align-items: center;
+}
+
+.info {
+    text-align: right;
+    border:10px solid black;
+    padding: 30px 80px;
+    line-height:15px;
+}
+
+.info > h1 {
+    font-size:3em;
+    line-height: 100px;
+}
+
+
+
+
+
+
+
+
+
+

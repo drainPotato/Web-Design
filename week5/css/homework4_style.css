@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.main{
+    display:flex;
+    align-items: center;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.info{
+    color: rgb(230, 233, 217);
+    padding: 50px 150px;
+    font-size:25px;
+}
+
+img{
+    padding:0 100px;
+    border-left:2px solid white;
+}

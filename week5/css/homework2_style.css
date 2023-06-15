@@ -1,0 +1,36 @@
+* {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.outside {
+  background-color: pink;
+}
+
+.header {
+  border: 5px solid black;
+  padding: 40px;
+  font-size: 3em;
+  display:inline-block;
+}
+
+.main {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding: 0 100px;
+}
+
+.data {
+  width:350px;
+  height:500px;
+}
+
+li{
+  list-style-type: none;
+}
+
+img{
+  width:260px;
+}
