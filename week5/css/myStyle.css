@@ -1,0 +1,37 @@
+html {
+  background: url("../image/sc2login.jpg") fixed;
+  background-size: 100% 100%;
+  padding: 30px;
+  margin: 30px;
+  height: 2000px;
+}
+
+.intro {
+  background: url("../image/starcraft2.jpeg") center repeat;
+  background-size: 500px;
+  border: 2px solid black;
+  border-radius: 50px;
+  opacity: 0.8;
+}
+
+.header {
+  background-color: lightblue;
+  border-radius: 20px;
+  font: 50px Consolas;
+  opacity: 0.8;
+}
+
+p {
+  font-size: 25px;
+  color: cyan;
+}
+
+ul > li {
+  font-size: 20px;
+  list-style-type: none;
+  color: yellow;
+}
+
+h1,p,li {
+  text-align: center;
+}
