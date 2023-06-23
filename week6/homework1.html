@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design 1</title>
+    <link rel="stylesheet" href="css/homework1_style.css">
+</head>
+
+<body>
+    <div class="bigbox">
+        <div class="topnav">
+            <div class="icon">
+                <img src="image/hw_image/hw1/tank.png" alt="" width="100">
+            </div>
+            <div class="details column">
+                <div class="phone">
+                    <div></div>
+                    <div>016-383 0390</div>
+                </div>
+                <div class="menu">
+                    <div><a href="#">Home</a></div>
+                    <div><a href="#">About</a></div>
+                    <div><a href="#">Contact</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="slideshow">
+            <img src="image/hw_image/hw1/1.jpeg" alt="">
+        </div>
+        <div class="content">
+            <div>Warstock Cache & Carry is a business that sells military and utility equipment, vehicles, and more. The
+                player can buy their products off their website.
+                <br><br>
+                They sell off-road vehicles, tanks, airplanes, and helicopters. Aside from their standard military
+                equipment, they also sell heavy-duty vehicles such as the Airport Bus, Bus, Mule and the Journey (which
+                defies the purpose of the website).
+                <br><br>
+                It is possible that they are distributing the military gear illegally, as it seems that any citizen can
+                buy their products, including the Rhino Tank (as implied by its tagline).
+            </div>
+            <div>
+                Whether you're a private security company, paramilitary force, rebel militia, hot housewife, radical
+                insurgent, unhinged lottery winner, over-zealous neighborhood watch group, or just a military hobbyist
+                with a worrying amount of disposable income, we've got you covered.
+            </div>
+        </div>
+        <div class="footer">Anytime Anywhere we will be here</div>
+    </div>
+    <script>
+        const img = document.querySelector('.slideshow img');
+        const data = [
+            { url: "image/hw_image/hw1/Avenger.jpeg" },
+            { url: "image/hw_image/hw1/Kosatka.jpeg" },
+            { url: "image/hw_image/hw1/Terrorbyte.jpeg" },
+            { url: "image/hw_image/hw1/yacht.jpeg" },
+        ]
+        let i = 0;
+            let control = setInterval(function () {
+                img.src = data[i % 4].url;
+                i++;
+            }, 1000)
+    </script>
+</body>
+
+</html>

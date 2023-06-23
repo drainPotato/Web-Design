@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+}
+
+.bigbox {
+  max-width: 1024px;
+  background-color: lightgrey;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topnav > div {
+  background-color: grey;
+}
+
+.icon > img {
+  width: 150px;
+  margin: 0 50px;
+}
+
+.phone {
+  padding: 12px 253px;
+}
+
+.menu {
+  display: flex;
+  background-color: black;
+  margin-top:15px;
+}
+
+.menu > div a:hover {
+  background-color: rgb(185, 182, 182);
+  color: black;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+
+.menu > div {
+  padding: 16px 24px;
+}
+
+.menu > div > a {
+  padding: 12px 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.slideshow{
+  margin:10px 0;
+}
+
+.slideshow > img{
+  max-width:100%;
+  border:5px solid black;
+}
+
+.feat {
+  display: flex;
+}
+
+.feat > div {
+  flex: 1;
+  background-color: grey;
+  padding: 14px 16px;
+  margin: 0 5px;
+}
+
+.feat > div > img{
+    width:200px;
+}
+
+.feat > div:nth-child(1) {
+  margin-left: 0;
+}
+
+.feat > div:last-child {
+  margin-right: 0;
+}
+
+.content {
+  display: flex;
+}
+
+.content > div{
+    margin: 15px 5px;
+    background-color: grey;
+    padding:12px 16px;
+}
+
+.content > div:first-child {
+  flex: 2;
+}
+
+.content > div:last-child {
+  flex: 1;
+}
+
+.footer {
+  background-color: rgb(142, 140, 140);
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 3em;
+  animation: footer_animate 5s infinite;
+}
+
+@media screen and (max-width:800px){
+  .topnav, .feat, .content{
+      flex-direction: column;
+  }
+
+  .column{
+      width:100%;
+  }
+}
