@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+  }
+  
+  .bigbox {
+    max-width: 1024px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  .topnav, .intro, .language, .skill{
+    margin: 20px;
+  }
+  
+  .topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .details {
+    padding:12px 16px;
+    font-family: 'Lobster', cursive;
+    font-size:5em;
+    border-bottom: 2px solid #000;
+  }
+  
+  .menu {
+    display: flex;
+    background-color: black;
+    margin-top:15px;
+  }
+  
+  .menu > div a:hover {
+    background-color: rgb(185, 182, 182);
+    color: black;
+    border-radius: 20px;
+    transition: all 0.5s;
+  }
+  
+  .menu > div {
+    padding: 16px 24px;
+  }
+  
+  .menu > div > a {
+    padding: 12px 16px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .intro{
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .intro > div:first-child{
+    font-size: 3.5em;
+    margin-right: 10px;
+  }
+
+  .intro > div{
+    flex:1;
+    background-color: grey;
+    margin: 10px 0;
+    padding: 44px 16px;
+  }
+
+  .skill{
+    font-size:300%;
+    margin-bottom: 0;
+    background-color: rgb(66, 64, 64);
+    padding-left: 20px;
+    padding-bottom: 0;
+    padding-top: 15px;
+    color: white;
+    text-align: center;
+    border-bottom: 5px solid #000;
+  }
+
+  .language{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(66, 64, 64);
+    padding: 20px;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .language > div{
+    background-color: grey;
+    padding: 14px 16px;
+    margin:5px;
+  }
+
+  .language > div img{
+    width: 150px;
+  }
+
+  .language > div:hover{
+    background-color: rgb(214, 212, 212);
+    cursor: pointer;
+    transition: all 1s;
+  }
+  
+  .footer {
+    background-color: black;
+    padding: 12px 32px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 200%;
+  }
+
+  .phone{
+    color:white;
+    flex:1;
+  }
+
+  .social_media{
+    display:flex;
+  }
+
+  .social_media > a > img{
+    width:44px;
+    margin: 0 10px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    * {
+      box-sizing: border-box;
+    }
+  
+    .language {
+      display: block;
+      text-align: center;
+    }
+  
+    .language > div {
+      display: inline-block;
+      width: 100%;
+      margin: 5px;
+      box-sizing: border-box;
+    }
+  }
+
+  
