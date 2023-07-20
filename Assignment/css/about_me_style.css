@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+}
+
+.about_me_box {
+  text-align: center;
+  background-color: #0f0f08;
+}
+
+.about_me_box > p:first-child {
+  font-size: 300%;
+  font-weight: bold;
+  color: #ff813b;
+  padding-top: 50px;
+  margin-top: 0;
+}
+
+.about_me_box > p:last-child {
+  color: #ffffe0;
+  padding-bottom: 50px;
+}
+
+.text_about {
+  text-align: center;
+  color: #ffffe0;
+}
+
+.job_title {
+  color: #ff813b;
+  text-align: center;
+  font-size: 300%;
+  font-weight: bold;
+}
+
+.my_img {
+  position: relative;
+  left: 32%;
+}
+
+.my_info {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.skills {
+  background-color: #0f0f08;
+  padding: 0 10px 40px 40px;
+  padding-bottom: 20px;
+  margin: 10px 0;
+}
+
+.skill_progress {
+  display: flex;
+  position: relative;
+  left: 30px;
+}
+
+.skill_progress > div {
+  flex: 1;
+}
+
+.skills > p {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ff813b;
+  position: relative;
+  left: 30px;
+  top: 30px;
+}
+
+.languages > p,
+.os > p,
+.tools > p {
+  color: #ffffff;
+}
+
+progress {
+  width: 200px;
+}
+
+

@@ -1,0 +1,27 @@
+.contact{
+    background-color: #0F0F08;
+    display:flex;
+    justify-content: center;
+    color:#FFA500;
+}
+
+.contact > div{
+    padding: 12px 16px;
+    margin: 0 30px;
+    line-height:30px;
+}
+
+.contact > div > div:first-child{
+    font-size:150%;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.icons{
+    display:flex;
+}
+
+.icons > div > a > img{
+    width:30px;
+    margin: 0 10px;
+}

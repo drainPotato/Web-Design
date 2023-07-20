@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+}
+
+.anti_hack_box{
+    padding-right: 50px;
+}
+
+.anti_hack{
+    display:flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+.anti_hack_title{
+    color: #FF813B;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.anti_hack_title_key{
+    font-size:55px;
+}
+
+.anti_hack_text{
+    color:#FFFFE0;
+    font-size:18px;
+    margin-bottom: 50px;
+}
+
+.anti_hack > div > img {
+    width: 500px;
+}
+
+.nav_btn{
+    display: flex;
+    justify-content: center;
+}
+
+.nav_btn > button{
+    background-color: #000000;
+    border: 2px solid #FFA500;
+    padding: 16px 28px;
+    margin: 0 30px;
+    transition: 0.5s all;
+}
+
+.nav_btn > button > a{
+    text-decoration: none;
+    color: #FFA500
+}
+
+.nav_btn > button:hover{
+    background-color: rgb(53, 53, 53);
+    cursor:pointer;
+}
+
+.pentest{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.pentest_title{
+    color: #FF813B;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.pentest_text{
+    color:#FFFFE0;
+    font-size:18px;
+}
+
+.pentest > div > img {
+    width:500px;
+}
+
+.pentest_box{
+    padding-right: 50px;
+}
+
+.why_need{
+    padding:20px;
+}
+
+.why_need_title{
+    color: #FF813B;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.explain{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.explain > div{
+    background-color: #0A0A06;
+    padding:20px;
+    margin: 0 20px;
+    width:300px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.explain > div > p:first-child {
+    color:#FFA500;
+}
+
+.explain > div > p:nth-child(2){
+    color:#FFFFE0;
+}
+
+.send_mail{
+    padding: 20px;
+}
+
+.send_mail > p{
+    color: #FF813B;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+form{
+    background-color: #0F0F08;
+    padding: 20px;
+}
+
+form > label{
+    color:#FFA500;
+}
+
+form > input{
+    width:600px;
+    height: 40px;
+    background-color: #030302;
+    border:2px solid #FFA500;
+    color:#FFFFE0;
+}
+
+form > textarea{
+    width:600px;
+    background-color: #030302;
+    border:2px solid #FFA500;
+    resize:none;
+    color:#FFFFE0;
+}
+
+form > button{
+    background-color: #FFA500;
+    padding: 12px 16px;
+    margin-top: 10px;
+    transition: 0.5s all;
+}
+
+form > button > a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size:150%;
+}
+
+form > button:hover{
+    background-color: rgb(53, 53, 53);
+    cursor:pointer;
+}
+
