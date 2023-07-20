@@ -37,20 +37,20 @@ body {
   justify-content: center;
 }
 
-.nav_btn > button {
+.nav_btn > a > button {
   background-color: #000000;
   border: 2px solid #ffa500;
   padding: 16px 28px;
   margin: 0 30px;
   transition: 0.5s all;
-}
-
-.nav_btn > button > a {
-  text-decoration: none;
   color: #ffa500;
 }
 
-.nav_btn > button:hover {
+.nav_btn > a {
+  text-decoration: none;
+}
+
+.nav_btn > a > button:hover {
   background-color: rgb(53, 53, 53);
   cursor: pointer;
 }

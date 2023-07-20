@@ -20,19 +20,21 @@ body{
     display:flex;
 }
 
-.nav_menu > div{
+.nav_menu > div > a > button{
     padding: 12px 16px;
     transition: 0.5s all;
-}
-
-.nav_menu > div > a{
-    text-decoration: none;
+    background-color: #000000;
     color:white;
+    border:none;
     font-weight:bold;
     white-space: nowrap;
 }
 
-.nav_menu > div:hover{
+.nav_menu > div > a{
+    text-decoration: none;
+}
+
+.nav_menu > div > a > button:hover{
     background-color:rgb(53, 53, 53);
     cursor:pointer;
 }
