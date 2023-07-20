@@ -1,3 +1,7 @@
+body{
+    background-color: black;
+}
+
 .bigbox{
     max-width: 1024px;
     background-color: #1e1e1e;

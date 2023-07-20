@@ -47,12 +47,11 @@ body {
   padding: 0 10px 40px 40px;
   padding-bottom: 20px;
   margin: 10px 0;
+  align-items: center;
 }
 
 .skill_progress {
   display: flex;
-  position: relative;
-  left: 30px;
 }
 
 .skill_progress > div {
@@ -64,18 +63,17 @@ body {
   font-weight: bold;
   color: #ff813b;
   position: relative;
-  left: 30px;
   top: 30px;
 }
 
 .languages > p,
 .os > p,
 .tools > p {
-  color: #ffffff;
+  color: #ffffe0;
 }
 
 progress {
-  width: 200px;
+  width: 80%;
 }
 
 
