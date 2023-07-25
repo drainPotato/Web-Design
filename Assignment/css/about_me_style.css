@@ -2,24 +2,6 @@ body {
   margin: 0;
 }
 
-.about_me_box {
-  text-align: center;
-  background-color: #0f0f08;
-}
-
-.about_me_box > p:first-child {
-  font-size: 300%;
-  font-weight: bold;
-  color: #ff813b;
-  padding-top: 50px;
-  margin-top: 0;
-}
-
-.about_me_box > p:last-child {
-  color: #ffffe0;
-  padding-bottom: 50px;
-}
-
 .text_about {
   text-align: center;
   color: #ffffe0;

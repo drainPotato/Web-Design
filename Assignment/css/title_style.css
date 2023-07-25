@@ -1,0 +1,17 @@
+.title_box {
+  text-align: center;
+  background-color: #0f0f08;
+}
+
+.title_box > p:first-child {
+  font-size: 300%;
+  font-weight: bold;
+  color: #ff813b;
+  padding-top: 50px;
+  margin-top: 0;
+}
+
+.title_box > p:last-child {
+  color: #ffffe0;
+  padding-bottom: 50px;
+}

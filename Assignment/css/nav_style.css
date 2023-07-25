@@ -1,40 +1,42 @@
-body{
-    background-color: black;
+body {
+  background-color: black;
+  font-family: "Lobster", cursive;
+  font-family: "Roboto", sans-serif;
 }
 
-.bigbox{
-    max-width: 1024px;
-    background-color: #1e1e1e;
-    margin: 0 auto;
+.bigbox {
+  max-width: 1024px;
+  background-color: #1e1e1e;
+  margin: 0 auto;
 }
 
-.nav_bar{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 20px;
-    background-color: #000000;
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: #000000;
 }
 
-.nav_menu{
-    display:flex;
+.nav_menu {
+  display: flex;
 }
 
-.nav_menu > div > a > button{
-    padding: 12px 16px;
-    transition: 0.5s all;
-    background-color: #000000;
-    color:white;
-    border:none;
-    font-weight:bold;
-    white-space: nowrap;
+.nav_menu > div > a > button {
+  padding: 12px 16px;
+  transition: 0.5s all;
+  background-color: #000000;
+  color: white;
+  border: none;
+  font-weight: bold;
+  white-space: nowrap;
 }
 
-.nav_menu > div > a{
-    text-decoration: none;
+.nav_menu > div > a {
+  text-decoration: none;
 }
 
-.nav_menu > div > a > button:hover{
-    background-color:rgb(53, 53, 53);
-    cursor:pointer;
+.nav_menu > div > a > button:hover {
+  background-color: rgb(53, 53, 53);
+  cursor: pointer;
 }

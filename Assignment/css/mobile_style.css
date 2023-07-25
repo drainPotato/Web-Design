@@ -1,24 +1,15 @@
 @media screen and (max-width: 800px) {
   * {
     box-sizing: border-box;
-    overflow-x:hidden;
+    overflow-x: hidden;
   }
 
-  /* home */
-  .explain,
-  .anti_hack,
-  .pentest,
   .nav_bar,
-  .nav_menu,
-  .anti_hack_box,
-  .pentest_box {
+  .nav_menu {
     display: block;
     text-align: center;
   }
 
-  .explain > div,
-  .anti_hack > div,
-  .pentest > div,
   .nav_bar > div,
   .nav_menu > div {
     display: inline-block;
@@ -27,17 +18,48 @@
     box-sizing: border-box;
   }
 
+  .contact {
+    display: block;
+    text-align: center;
+  }
+
+  .contact > div {
+    display: inline-block;
+    width: 100%;
+    margin: 5px;
+    box-sizing: border-box;
+  }
+
+  /* home */
+  .explain,
+  .anti_hack,
+  .pentest,
   .anti_hack_box,
-  .pentest_box{
+  .pentest_box {
+    display: block;
+    text-align: center;
+  }
+
+  .explain > div,
+  .anti_hack > div,
+  .pentest > div {
+    display: inline-block;
+    width: 100%;
+    margin: 5px;
+    box-sizing: border-box;
+  }
+
+  .anti_hack_box,
+  .pentest_box {
     position: relative;
-    left:5%;
+    left: 5%;
   }
 
   .anti_hack > div > img,
-  .pentest > div > img{
-    position:relative;
-    right:2%;
-    width:100%;
+  .pentest > div > img {
+    position: relative;
+    right: 2%;
+    width: 100%;
   }
 
   /* about_me */
