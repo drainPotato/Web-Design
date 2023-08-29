@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid bg-color-main p-0">
+        <!-- nav bar -->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark m-0 p-3">
+            <div class="container-fluid d-flex justify-content-between">
+                <a class="navbar-brand" href="index.html">
+                    <img src="image/logo.png" alt="" width="10%" class="my-3">
+                </a>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active fw-bold px-4" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle fw-bold px-4" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Games
+                                </a>
+                                <ul class="dropdown-menu bg-dark">
+                                    <li><a class="dropdown-item text-secondary fw-bold"
+                                            href="csgo_overview.html">Counter Strike</a></li>
+                                    <li><a class="dropdown-item text-secondary fw-bold"
+                                            href="genshin_overview.html">Genshin Impact</a></li>
+                                    <li><a class="dropdown-item text-secondary fw-bold" href="elden_overview.html">Elden
+                                            Ring</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold px-4" href="about_us.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold px-4" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- main_img + 3 games + title -->
+        <div id="carouselTitle" class="carousel slide mb-3" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/gametitle_bg.jpg" class="d-block w-100" alt="...">
+                    <div class="text-white fs-1 main_title position-absolute text-center lh-sm">
+                        <p class="small_title_word">
+                            Best <br>
+                            <span class="big_title_word">Games</span> <br>
+                            In <br>
+                            2023
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/csgo_main_bg.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/genshin_main_bg.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/elden_main_bg.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselTitle" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselTitle" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- list games -->
+        <!-- csgo -->
+        <div class="container-fluid c-color1 my-5">
+            <div class="p-3 oswald title_font">Counter-Strike : Global Offensive</div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-5 py-5">
+                        <div>
+                            <img src="image/csgo_logo.png" alt="" width="40%">
+                            <p class="fs-5 py-3 text-color">Popular multiplayer first-person shooter video game where
+                                players
+                                engage in tactical
+                                team-based battles to complete objectives or eliminate opponents.</p>
+                            <a href="csgo_overview.html">
+                                <button type="button" class="btn c-color2 fs-5 fw-bold my-3 text-white px-5">Learn
+                                    More</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-7 py-3">
+                        <div>
+                            <div id="carousel_csgo" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel_csgo" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel_csgo" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel_csgo" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#carousel_csgo" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#carousel_csgo" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="image/csgo_benefit1_sleek_graphic.png" class="d-block w-100"
+                                            alt="...">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5 class="opacity-75">Sleek Graphic and Visual Realism</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="image/csgo_benefit2_CandS_gameplay.jpg" class="d-block w-100"
+                                            alt="...">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5 class="opacity-75">Competive and Strategic gameplay</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="image/csgo_benefit3_iconicmap.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5 class="opacity-75">Iconic Map</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="image/csgo_benefit4_skin.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5 class="opacity-75">Customization and Skin</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="image/csgo_benefit5_createOwnGamemode.jpg" class="d-block w-100"
+                                            alt="...">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5 class="opacity-75">Create Gamemode</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel_csgo"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel_csgo"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- genshin impact -->
+        <div class="container-fluid c-color1 my-5">
+            <div class="p-3 oswald title_font">Genshin Impact</div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-5 py-5">
+                        <div>
+                            <img src="image/Genshin-Impact-Logo-PNG-Image.png" alt="" width="40%">
+                            <p class="fs-5 py-3 text-color">Popular multiplayer first-person shooter video game where players
+                                engage in tactical
+                                team-based battles to complete objectives or eliminate opponents.</p>
+                            <a href="genshin_overview.html">
+                                <button type="button" class="btn c-color2 fs-5 fw-bold my-3 text-white px-5">Learn
+                                    More</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-7 py-3">
+                        <div>
+                            <div id="carousel_genshin" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel_genshin" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel_genshin" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel_genshin" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#carousel_genshin" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#carousel_genshin" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="image/genshin_benefit1_openWorld.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5 class="opacity-75">Open World Exploration</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="image/genshin_benefit2_characterVariety.jpg" class="d-block w-100"
+                                            alt="...">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5 class="opacity-75">Character Variety</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="image/genshin_benefit3_engageCombat.jpg" class="d-block w-100"
+                                            alt="...">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5 class="opacity-75">Engaging Combat</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="image/genshin_benefit4_crossPlatform.jpg" class="d-block w-100"
+                                            alt="...">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5 class="opacity-75">Cross Platform</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="image/genshin_benefit5_storytellLore.jpg" class="d-block w-100"
+                                            alt="...">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5 class="opacity-75">Story Telling and Lore</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel_genshin"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel_genshin"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- elden ring -->
+        <div class="container-fluid c-color1 my-5">
+            <div class="p-3 oswald title_font">Elden Ring</div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-5 py-5">
+                        <div>
+                            <img src="image/elden_logo.jpg" alt="" width="40%">
+                            <p class="fs-5 py-3 text-color">Popular multiplayer first-person shooter video game where players
+                                engage in tactical
+                                team-based battles to complete objectives or eliminate opponents.</p>
+                            <a href="elden_overview.html">
+                                <button type="button" class="btn c-color2 fs-5 fw-bold my-3 text-white px-5">Learn
+                                    More</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-7 py-3">
+                        <div>
+                            <div id="carousel_elden" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel_elden" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel_elden" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel_elden" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#carousel_elden" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#carousel_elden" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="image/elden_benefit1_fantasyWorld.jpg" class="d-block w-100"
+                                            alt="...">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5 class="opacity-75">Fantasy World</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="image/elden_benefit2_innovativeGameplay.jpg" class="d-block w-100"
+                                            alt="...">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5 class="opacity-75">Innovative Gameplay</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="image/elden_benefit3_hypeMystery.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5 class="opacity-75">Hype and Mystery</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="image/elden_benefit4_strategicCombat.jpg" class="d-block w-100"
+                                            alt="...">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5 class="opacity-75">Strategic Combat</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="image/elden_benefit5_artisticDirection.jpg" class="d-block w-100"
+                                            alt="...">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5 class="opacity-75">Artistic Direction</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel_elden"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel_elden"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="bg-dark text-center text-light py-4">
+            © 2023, Epic Games, Inc. All rights reserved.
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

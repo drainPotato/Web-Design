@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overview</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/game_overview_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid bg-color-main p-0">
+        <!-- main nav bar -->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark m-0 p-3">
+            <div class="container-fluid d-flex justify-content-between">
+                <a class="navbar-brand" href="index.html">
+                    <img src="image/logo.png" alt="" width="10%" class="my-3">
+                </a>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold px-4" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle fw-bold active px-4" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Games
+                                </a>
+                                <ul class="dropdown-menu bg-dark">
+                                    <li><a class="dropdown-item text-secondary fw-bold"
+                                            href="csgo_overview.html">Counter Strike</a></li>
+                                    <li><a class="dropdown-item text-secondary fw-bold"
+                                            href="genshin_overview.html">Genshin Impact</a></li>
+                                    <li><a class="dropdown-item text-secondary fw-bold" href="elden_overview.html">Elden
+                                            Ring</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold px-4" href="about_us.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold px-4" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <!-- game title -->
+            <div class="title pb-4 pt-5 text-white">
+                Genshin Impact
+            </div>
+            <div class="container pb-4">
+                <!-- game nav bar -->
+                <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link p-3 fw-bold active" aria-current="page"
+                                    href="genshin_overview.html">Overview</a>
+                                <a class="nav-link p-3 fw-bold" href="genshin_feature.html">Features</a>
+                                <a class="nav-link p-3 fw-bold" href="genshin_news.html">News</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <!-- game view + other details -->
+                <div class="row game_view">
+                    <!-- left-side -->
+                    <div class="col-8 my-2">
+                        <div id="carouselTitle" class="carousel slide mb-3" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="image/genshin_gameplay1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/genshin_gameplay2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/genshin_gameplay3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/genshin_gameplay4.jpeg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/genshin_gameplay5.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselTitle"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselTitle"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <!-- about game -->
+                        <p class="text-white fw-bold font-18 my-5">
+                            Embark on a journey across Teyvat to find your lost sibling and seek answers from The Seven
+                            — the gods of each element. Explore this wondrous world, join forces with a diverse range of
+                            characters, and unravel the countless mysteries that Teyvat holds...
+                        </p>
+                        <!-- game info -->
+                        <div class="my-4">
+                            <p class="fw-bold text-white">MASSIVE OPEN WORLD</p>
+                            <p class="text-color">
+                                Climb any mountain, swim across any river, and glide over the world below, taking in the
+                                jaw-dropping scenery each step of the way. And if you stop to investigate a wandering
+                                Seelie or strange mechanism, who knows what you might discover?
+                            </p>
+                        </div>
+                        <div class="my-4">
+                            <p class="fw-bold text-white">ELEMENT COMBAT SYSTEM</p>
+                            <p class="text-color">
+                                Harness the seven elements to unleash elemental reactions. Anemo, Electro, Hydro, Pyro,
+                                Cryo, Dendro, and Geo interact in all sorts of ways, and Vision wielders have the power
+                                to turn this to their advantage.
+                            </p>
+                            <p class="text-color">
+                                Will you vaporize Hydro with Pyro, electro-charge it with Electro, or freeze it with
+                                Cryo? Your mastery of the elements will give you the upper hand in battle and
+                                exploration.
+                            </p>
+                        </div>
+                        <div class="my-4">
+                            <p class="fw-bold text-white">BEAUTIFUL VISUALS</p>
+                            <p class="text-color">
+                                Feast your eyes on the world around you, with a stunning art style, real-time rendering,
+                                and finely tuned character animations delivering you a truly immersive visual
+                                experience. Lighting and weather all change naturally over time, bringing every detail
+                                of this world to life.
+                            </p>
+                        </div>
+                        <div class="my-4">
+                            <p class="fw-bold text-white">SMOOTHING SOUNDTRACK</p>
+                            <p class="text-color">
+                                Let the beautiful sounds of Teyvat draw you in as you explore the expansive world around
+                                you. Performed by the world's top orchestras such as London Philharmonic Orchestra and
+                                Shanghai Symphony Orchestra, the soundtrack changes seamlessly with the time and
+                                gameplay to match the mood.
+                            </p>
+                        </div>
+                        <div class="my-4">
+                            <p class="fw-bold text-white">BUILD YOUR DREAM TEAM</p>
+                            <p class="text-color">
+
+                                Team up with a diverse cast of characters in Teyvat, each with their own unique
+                                personalities, stories, and abilities. Discover your favorite party combinations and
+                                level up your characters to help you conquer even the most daunting of enemies and
+                                domains.
+                            </p>
+                        </div>
+                        <div class="my-4">
+                            <p class="fw-bold text-white">JOURNEY WITH FRIENDS</p>
+                            <p class="text-color">
+                                Team up with friends across various platforms to trigger more elemental action, tackle
+                                tricky boss fights, and conquer challenging domains together to reap rich rewards.
+                            </p>
+                            <p class="text-color">
+                                As you stand atop the peaks of Jueyun Karst and take in the rolling clouds and vast
+                                terrain stretching out before you, you may wish to stay in Teyvat a little longer... But
+                                until you are reunited with your lost sibling, how can you rest? Go forth, Traveler, and
+                                begin your adventure!
+                            </p>
+                        </div>
+                        <div class="my-4">
+                            <p class="fw-bold text-white">SUPPORT</p>
+                            <p class="text-color">
+                                If you encounter any issues during the game, you can send us feedback via the in-game
+                                Customer Service Center.Customer Service Email: genshin_cs@hoyoverse.com
+                            </p>
+                        </div>
+                        <div>
+                            <img src="image/genshin_benefit1_openWorld.jpg" alt="" width="100%">
+                        </div>
+                    </div>
+                    <!-- right-side -->
+                    <div class="col-4 my-2">
+                        <div>
+                            <img src="image/genshin_overview.jpg" alt="" width="100%">
+                            <div class="c-color2 px-3 py-1 pt-3">
+                                <p class="text-color">
+                                    <span class="fw-bold text-white">Genres</span> <br>
+                                    Adventure, Open World, RPG
+                                </p>
+                                <p class="text-color">
+                                    <span class="fw-bold text-white">Features</span> <br>
+                                    Cross Platform, MMO, Multiplayer
+                                </p>
+                                <div class="d-flex justify-content-between py-1">
+                                    <p class="fw-bold m-0 text-white">Developer</p>
+                                    <p class="m-0 text-color">COGNOSPHERE</p>
+                                </div>
+                                <div class="d-flex justify-content-between py-1">
+                                    <p class="fw-bold m-0 text-white">Publisher</p>
+                                    <p class="m-0 text-color">COGNOSPHERE</p>
+                                </div>
+                                <div class="d-flex justify-content-between py-1">
+                                    <p class="fw-bold m-0 text-white">Release date</p>
+                                    <p class="m-0 text-color">06/09/2021</p>
+                                </div>
+                                <div class="d-flex justify-content-between py-1">
+                                    <p class="fw-bold m-0 text-white">Platform</p>
+                                    <p class="m-0 text-color">Windows, Mac</p>
+                                </div>
+                                <a href="genshin_feature.html"><button
+                                        class="btn-color w-100 p-2 text-white fw-bold my-3">Feature</button></a>
+                                <a href="genshin_news.html"><button
+                                    class="btn-color w-100 p-2 text-white fw-bold mb-3">News</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="bg-dark text-center text-light py-4">
+            © 2023, Epic Games, Inc. All rights reserved.
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

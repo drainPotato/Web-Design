@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overview</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/game_overview_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid bg-color-main p-0">
+        <!-- main nav bar -->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark m-0 p-3">
+            <div class="container-fluid d-flex justify-content-between">
+                <a class="navbar-brand" href="index.html">
+                    <img src="image/logo.png" alt="" width="10%" class="my-3">
+                </a>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold px-4" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle fw-bold active px-4" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Games
+                                </a>
+                                <ul class="dropdown-menu bg-dark">
+                                    <li><a class="dropdown-item text-secondary fw-bold"
+                                            href="csgo_overview.html">Counter Strike</a></li>
+                                    <li><a class="dropdown-item text-secondary fw-bold"
+                                            href="genshin_overview.html">Genshin Impact</a></li>
+                                    <li><a class="dropdown-item text-secondary fw-bold" href="elden_overview.html">Elden
+                                            Ring</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold px-4" href="about_us.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold px-4" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <!-- game title -->
+            <div class="title pb-4 pt-5 text-white">
+                Elden Ring
+            </div>
+            <div class="container pb-4">
+                <!-- game nav bar -->
+                <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link p-3 fw-bold active" aria-current="page"
+                                    href="elden_overview.html">Overview</a>
+                                <a class="nav-link p-3 fw-bold " href="elden_feature.html">Features</a>
+                                <a class="nav-link p-3 fw-bold" href="elden_news.html">News</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <!-- game view + other details -->
+                <div class="row game_view">
+                    <!-- left-side -->
+                    <div class="col-8 my-2">
+                        <div id="carouselTitle" class="carousel slide mb-3" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="image/elden_gameplay5.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/elden_gameplay2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/elden_gameplay3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/elden_gameplay4.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/elden_gameplay1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselTitle"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselTitle"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <!-- about game -->
+                        <p class="text-white fw-bold font-18 my-5">
+                            THE NEW FANTASY ACTION RPG. <br>
+                            Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become
+                            an Elden Lord in the Lands Between.
+                        </p>
+                        <!-- game info -->
+                        <div class="my-4">
+                            <p class="fw-bold text-white">A VAST WORLD FULL OF EXCITEMENT</p>
+                            <p class="text-color">
+                                A vast world where open fields with a variety of situations and huge dungeons with
+                                complex and three-dimensional designs are seamlessly connected. As you explore, the joy
+                                of discovering unknown and overwhelming threats await you, leading to a high sense of
+                                accomplishment.
+                            </p>
+                        </div>
+                        <div class="my-4">
+                            <p class="fw-bold text-white">CREATE YOUR OWN CHARACTER</p>
+                            <p class="text-color">
+                                In addition to customizing the appearance of your character, you can freely combine the
+                                weapons, armor, and magic that you equip. You can develop your character according to
+                                your play style, such as increasing your muscle strength to become a strong warrior, or
+                                mastering magic.
+                            </p>
+                        </div>
+                        <div class="my-4">
+                            <p class="fw-bold text-white">AN EPIC DRAMA BORN FROM A MYTH</p>
+                            <p class="text-color">
+                                A multilayered story told in fragments. An epic drama in which the various thoughts of
+                                the characters intersect in the Lands Between.
+                            </p>
+                        </div>
+                        <div class="my-4">
+                            <p class="fw-bold text-white">UNIQUE ONLINE PLAY THE LOOSELY CONNECTS YOU TO OTHERS</p>
+                            <p class="text-color">
+                                In addition to multiplayer, where you can directly connect with other players and travel
+                                together, the game supports a unique asynchronous online element that allows you to feel
+                                the presence of others.
+                            </p>
+                        </div>
+                        <div class="my-4">
+                            <p class="fw-bold text-white">OPEN WORLD EXPLORATION</p>
+                            <p class="text-color">
+                                "Elden Ring" is described as an open-world game, which is a departure from
+                                FromSoftware's previous titles that often featured interconnected but distinct areas.
+                                The prospect of exploring a larger and more interconnected world could be enticing for
+                                players who enjoy exploration and discovery.
+                            </p>
+                        </div>
+                        <div class="my-4">
+                            <p class="fw-bold text-white">ATMOSPHERE AND ART DIRECTION</p>
+                            <p class="text-color">
+                                FromSoftware is known for its unique art style and atmospheric design. "Elden Ring" is
+                                expected to continue this tradition, offering players a visually captivating and
+                                immersive experience.
+                            </p>
+                        </div>
+                        <div class="my-4">
+                            <p class="fw-bold text-white">HIGH STRAKES AND REWARDING PROGRESSION</p>
+                            <p class="text-color">
+                                FromSoftware games often provide a sense of accomplishment as players overcome difficult
+                                challenges. The risk-reward structure and the feeling of progression could be a
+                                significant draw for players.
+                            </p>
+                        </div>
+                        <div>
+                            <img src="image/elden_benefit1_fantasyWorld.jpg" alt="" width="100%">
+                        </div>
+                    </div>
+                    <!-- right-side -->
+                    <div class="col-4 my-2">
+                        <div>
+                            <img src="image/elden_overview.jpg" alt="" width="100%">
+                            <div class="c-color2 px-3 py-1 pt-3">
+                                <p class="text-color">
+                                    <span class="fw-bold text-white">Genres</span> <br>
+                                    Adventure, Open World, RPG
+                                </p>
+                                <p class="text-color">
+                                    <span class="fw-bold text-white">Features</span> <br>
+                                    Dark Souls, Dark Fantasy
+                                </p>
+                                <div class="d-flex justify-content-between py-1">
+                                    <p class="fw-bold m-0 text-white">Developer</p>
+                                    <p class="m-0 text-color">FromSoftware</p>
+                                </div>
+                                <div class="d-flex justify-content-between py-1">
+                                    <p class="fw-bold m-0 text-white">Publisher</p>
+                                    <p class="m-0 text-color">FromSoftware</p>
+                                </div>
+                                <div class="d-flex justify-content-between py-1">
+                                    <p class="fw-bold m-0 text-white">Release date</p>
+                                    <p class="m-0 text-color">06/09/2021</p>
+                                </div>
+                                <div class="d-flex justify-content-between py-1">
+                                    <p class="fw-bold m-0 text-white">Platform</p>
+                                    <p class="m-0 text-color">Windows</p>
+                                </div>
+                                <a href="elden_feature.html"><button class="btn-color w-100 p-2 text-white fw-bold my-3">Feature</button></a>
+                                <a href="elden_news.html"><button class="btn-color w-100 p-2 text-white fw-bold mb-3">News</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="bg-dark text-center text-light py-4">
+            © 2023, Epic Games, Inc. All rights reserved.
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

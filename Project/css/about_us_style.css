@@ -1,0 +1,46 @@
+body {
+    margin: 0 auto;
+    background-color: #f9fbe7;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .bg-color-main {
+    background-color: #030302;
+  }
+  
+  .c-color1 {
+    background-color: #1e1e1e;
+  }
+  
+  .c-color2 {
+    background-color: #2a2a2a;
+  }
+
+  .title_fs {
+    font-size:100px;
+  }
+
+  .text-color{
+    color: #acacac;
+  }
+
+  @media screen and (max-width: 800px) {
+    * {
+      box-sizing: border-box;
+    }
+
+    .title_fs {
+      font-size: 40px;
+    }
+
+    .container, .row {
+      display: block;
+      text-align: center;
+    }
+  
+    .container > div, .row > div{
+      display: inline-block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }

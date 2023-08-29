@@ -1,0 +1,57 @@
+body {
+    margin: 0 auto;
+    background-color: #030302;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .bg-color-main {
+    background-color: #030302;
+  }
+  
+  .c-color1 {
+    background-color: #1e1e1e;
+  }
+  
+  .c-color2 {
+    background-color: #2a2a2a;
+  }
+  
+  .btn-color {
+    background-color: #0074E4;
+  }
+  
+  .text-color {
+    color: #acacac;
+  }
+
+  .title {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .font-20 {
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 800px) {
+    * {
+      box-sizing: border-box;
+    }
+  
+    .title {
+      font-size: 40px;
+      width: 100%;
+    }
+  
+    .game_view {
+      display: block;
+      text-align: center;
+    }
+  
+    .game_view > div {
+      display: inline-block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
